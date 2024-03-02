@@ -25,7 +25,7 @@ const Navbar = () => {
         <div className='bg-bgCream fixed w-full z-50 lg:px-0 px-2 shadow-sm'>
             <div className='wrapper flex items-center justify-between'>
                 <div className="">
-                    <img src="/image/logoEmptyBG.png" alt="logo" className='lg:w-24 lg:h-24 w-20 cursor-pointer'
+                    <img src="./DVG-Hathaway/image/logoEmptyBG.png" alt="logo" className='lg:w-24 lg:h-24 w-20 cursor-pointer'
                         onClick={() => nav("/")}
                     />
                 </div>
