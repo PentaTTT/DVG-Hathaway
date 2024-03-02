@@ -7,7 +7,7 @@ const Banner = () => {
         <section className='relative'>
             <div className=''>
                 <img className='object-cover md:h-full h-[250px] w-full brightness-[60%]'
-                    src="/image/banner.webp" alt="banner" />
+                    src="../../public/image/banner.webp" alt="banner" />
             </div>
 
             <div className='wrapper'>
