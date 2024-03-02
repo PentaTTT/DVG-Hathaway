@@ -68,6 +68,7 @@ function App() {
       <div className='pt-24'>
         <Routes>
           <Route path={path.HOME} element={<Home />} />
+          <Route path={path.HOME2} element={<Home />} />
           <Route path={path.SERVICE} element={<ServicePage />} />
           <Route path={path.ABOUT} element={<About />} />
           <Route path={path.CONTACT} element={<ContactPage />} />
