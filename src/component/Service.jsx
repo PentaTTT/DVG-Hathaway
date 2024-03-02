@@ -33,8 +33,8 @@ const Service = ({ haveTitle }) => {
         },
         {
             id: 4,
-            img: '/image/partner/tiktok.png',
-            imgHover: '/image/partner/tiktok-hover.png',
+            img: '../../public/image/partner/tiktok.png',
+            imgHover: '../../public/image/partner/tiktok-hover.png',
             title: 'Xây Kênh Tiktok',
             sub: [
                 'Tư Vấn Xây Kênh Tiktok', 'Sản Xuất Content', 'Quản Lý Kênh'

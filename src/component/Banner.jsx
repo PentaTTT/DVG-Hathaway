@@ -16,7 +16,7 @@ const Banner = () => {
                     <h1 data-aos="fade-right" data-aos-duration="2000"
                         className='text-2xl md:text-5xl lg:text-7xl font-fontRoboto bg-gold text-transparent bg-clip-text z-10 '>DVG HATHAWAY</h1>
                     <p data-aos="fade-down" data-aos-duration="2500"
-                        className='text-sm md:text-sm lg:text-lg text-white mt-5 lg:mt-12 w-full md:w-3/4 lg:w-[40%]'>Với đội ngũ nhân lực có trình độ chuyên môn cao, DVG HATHAWAY tự hào mang đến một tư duy hoàn toàn mới trong lĩnh vực truyền thông marketing. Cùng với sứ mệnh gắn kết các doanh nghiệp với khách hàng của họ, đội ngũ Marketing sáng tạo của chúng tôi sẽ giúp nâng tầm thương hiệu mạnh mẽ cho khách hàng</p>
+                        className='text-sm md:text-sm lg:text-lg text-white mt-5 lg:mt-12 w-full md:w-3/5 lg:w-[40%]'>Với đội ngũ nhân lực có trình độ chuyên môn cao, DVG HATHAWAY tự hào mang đến một tư duy hoàn toàn mới trong lĩnh vực truyền thông marketing. Cùng với sứ mệnh gắn kết các doanh nghiệp với khách hàng của họ, đội ngũ Marketing sáng tạo của chúng tôi sẽ giúp nâng tầm thương hiệu mạnh mẽ cho khách hàng</p>
                 </div>
                 <div data-aos="fade-down" data-aos-duration="2500"
                     className='wrapper lg:absolute -bottom-16 lg:grid lg:grid-cols-3 gap-5

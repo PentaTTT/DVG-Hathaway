@@ -35,7 +35,7 @@ const Team = () => {
                     <p className='text-white mt-8 mb-11'>Đội ngũ của chúng tôi chính là đội ngũ của bạn. Chúng tôi ở đây, đồng hành cùng doanh nghiệp bạn!</p>
                 </div>
                 <div className='flex lg:flex-row flex-col justify-center gap-16 lg:p-0 p-3'>
-                    <img src="/image/team-img.webp" alt="team image" className='lg:w-1/2 '
+                    <img src="../../public/image/team-img.webp" alt="team image" className='lg:w-1/2 '
                         data-aos="fade-right" data-aos-duration="2000"
                     />
                     <div className='text-white flex flex-col gap-5'

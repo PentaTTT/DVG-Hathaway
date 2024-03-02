@@ -4,40 +4,40 @@ const Partner = () => {
     const listPartner = [
         {
             name: 'Vinfast',
-            img: '/image/partner/vinfast.png'
+            img: '../../public/image/partner/vinfast.png'
         },
         {
             name: 'PNJ',
-            img: '/image/partner/pnj.png'
+            img: '../../public/image/partner/pnj.png'
         },
         {
             name: 'Samsung',
-            img: '/image/partner/samsung.png'
+            img: '../../public/image/partner/samsung.png'
         },
         {
             name: 'VNG',
-            img: '/image/partner/vng.png'
+            img: '../../public/image/partner/vng.png'
         },
         {
             name: 'Thế giới di động',
-            img: '/image/partner/thegioididong.png'
+            img: '../../public/image/partner/thegioididong.png'
         },
         {
             name: 'Zalo Pay',
-            img: '/image/partner/zalopay.png'
+            img: '../../public/image/partner/zalopay.png'
         },
         {
             name: 'Traveloka',
-            img: '/image/partner/traveloka.png'
+            img: '../../public/image/partner/traveloka.png'
         },
         {
             name: 'Shopee',
-            img: '/image/partner/shopee.png'
+            img: '../../public/image/partner/shopee.png'
         },
     ]
 
     return (
-        <div className=' text-center lg:py-24 py-12 bg-gradient-to-r from-white to-bgCream'>
+        <div className='text-center lg:py-24 py-12 bg-gradient-to-r from-white to-bgCream'>
             <div className='wrapper'>
                 <h3 className='text-green text-2xl font-fontRoboto font-bold mb-3'>Đối tác tiêu biểu</h3>
                 <p className=''>chúng tôi được tin tưởng bởi</p>
