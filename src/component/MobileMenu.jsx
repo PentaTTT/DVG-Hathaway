@@ -24,7 +24,7 @@ const MobileMenu = ({ visible, navItems }) => {
             <div className='flex flex-col gap-4'>
                 {navItems?.length > 0 &&
                     navItems.map((item) => {
-                        return <Link className={linkClass} to={item.link}>{item.name}</Link>
+                        return <Link key={item.name} className={linkClass} to={item.link}>{item.name}</Link>
                     }
                     )
                 }

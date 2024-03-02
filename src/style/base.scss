@@ -1,6 +1,6 @@
 html,
 body {
-    @apply bg-bgGreentea font-fontJosefin scroll-smooth scrollbar-thumb-green scrollbar-track-bgGreentea scrollbar-thin;
+    @apply bg-bgGreentea font-fontJosefin scroll-smooth scrollbar-thumb-green scrollbar-track-bgGreentea scrollbar-thin overflow-x-hidden;
 }
 
 .wrapper {

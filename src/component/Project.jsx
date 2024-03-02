@@ -52,7 +52,7 @@ const Project = () => {
                             >
                                 <div className='flex justify-center items-center'>
                                     <img src={item.img} alt={item.title}
-                                        className='h-[260px] object-cover rounded-t-xl'
+                                        className='h-[260px] w-[285px] object-fit rounded-t-xl'
                                     />
                                 </div>
                                 <div className='flex flex-col gap-3 text-center'>
