@@ -2,6 +2,7 @@ import React from 'react'
 import { FaPhone } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
 import { HiOutlineLocationMarker } from "react-icons/hi";
+import logoImg from "../../public/image/logoEmptyBG.png"
 
 const Footer = ({ serviceList }) => {
     return (
@@ -10,7 +11,7 @@ const Footer = ({ serviceList }) => {
                             grid-cols-1 md:grid-cols-3 md:gap-2 px-3 lg:px-0
             '>
                 <div className='flex md:flex-col flex-row gap-3'>
-                    <img src="../../public/image/logoEmptyBG.png" alt="logo DVG" className='object-contain lg:w-24 w-20' />
+                    <img src={logoImg} alt="logo DVG" className='object-contain lg:w-24 w-20' />
                     <div>
                         <div className='flex items-center gap-2'><FaPhone />033.33.69.444</div>
                         <div className='flex items-center gap-2 py-2'><MdOutlineEmail />dvghathawayinc@gmail.com</div>
