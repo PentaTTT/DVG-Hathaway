@@ -1,13 +1,14 @@
 import React from 'react'
 import missionImg from '../assets/su-menh.svg'
 import visionImg from '../assets/tam-nhin.svg'
+import banner from "../../public/image/banner.webp"
 
 const Banner = () => {
     return (
         <section className='relative'>
             <div className=''>
                 <img className='object-cover md:h-full h-[250px] w-full brightness-[60%]'
-                    src="../../public/image/banner.webp" alt="banner" />
+                    src={banner} alt="banner" />
             </div>
 
             <div className='wrapper'>
