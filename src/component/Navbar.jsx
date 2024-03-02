@@ -3,7 +3,8 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
 import { BsChevronDown } from "react-icons/bs";
 import MobileMenu from './MobileMenu';
-import { useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom';
+import logoDVG from '../../public/image/logoEmptyBG.png'
 
 const Navbar = () => {
     const navItems = [
@@ -25,7 +26,7 @@ const Navbar = () => {
         <div className='bg-bgCream fixed w-full z-50 lg:px-0 px-2 shadow-sm'>
             <div className='wrapper flex items-center justify-between'>
                 <div className="">
-                    <img src="./DVG-Hathaway/image/logoEmptyBG.png" alt="logo" className='lg:w-24 lg:h-24 w-20 cursor-pointer'
+                    <img src={logoDVG} alt="logo" className='lg:w-24 lg:h-24 w-20 cursor-pointer'
                         onClick={() => nav("/")}
                     />
                 </div>
