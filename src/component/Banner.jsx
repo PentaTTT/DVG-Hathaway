@@ -1,7 +1,7 @@
 import React from 'react'
 import missionImg from '../assets/su-menh.svg'
 import visionImg from '../assets/tam-nhin.svg'
-import banner from "../../public/image/banner.webp"
+import banner from "../assets/banner.webp"
 
 const Banner = () => {
     return (
