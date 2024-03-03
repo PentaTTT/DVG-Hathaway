@@ -1,38 +1,46 @@
+import hoangleImg from '../assets/project/hoangle.jpg'
+import greencImg from '../assets/project/greenc.jpg'
+import daithienhaImg from '../assets/project/daithienha.jpg'
+import seahomeImg from '../assets/project/seahome.jpg'
+import donghairImg from '../assets/project/donghair.jpg'
+import sihairImg from '../assets/project/sihair.jpg'
+
+
 export const dataProject = [
     {
         id: 1,
         title: "Hoàng Lê Bakery",
-        img: '../../public/image/project/hoangle.jpg',
+        img: hoangleImg,
         type: "Branding"
     },
     {
         id: 2,
         title: "GREENC",
-        img: '../../public/image/project/greenc.jpg',
+        img: greencImg,
         type: "Marketing"
     },
     {
         id: 3,
-        title: "Dong Hair",
-        img: "../../public/image/project/donghair.jpg",
+        title: "Dai Thien Ha",
+        img: daithienhaImg,
         type: "Marketing"
     },
     {
         id: 4,
-        title: "Dai Thien Ha",
-        img: "../../public/image/project/daithienha.jpg",
+        title: "Sea Home",
+        img: seahomeImg,
         type: "Branding"
     },
     {
         id: 5,
-        title: "Sea Home",
-        img: "../../public/image/project/seahome.jpg",
+        title: "Dong Hair",
+        img: donghairImg,
         type: "Marketing"
     },
     {
         id: 6,
         title: "SI Hair",
-        img: "../../public/image/project/sihair.jpg",
+        img: sihairImg,
         type: "Marketing"
     }
 ]

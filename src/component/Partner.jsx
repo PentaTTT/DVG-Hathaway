@@ -1,38 +1,46 @@
 import React from 'react'
+import vinImg from '../assets/partner/vinfast.png'
+import PNJImg from '../assets/partner/pnj.png'
+import samsungImg from '../assets/partner/samsung.png'
+import tgddImg from '../assets/partner/thegioididong.png'
+import zaloImg from '../assets/partner/zalopay.png'
+import vngImg from '../assets/partner/vng.png'
+import travelokaImg from '../assets/partner/traveloka.png'
+import shopeeImg from '../assets/partner/shopee.png'
 
 const Partner = () => {
     const listPartner = [
         {
             name: 'Vinfast',
-            img: '../../public/image/partner/vinfast.png'
+            img: vinImg
         },
         {
             name: 'PNJ',
-            img: '../../public/image/partner/pnj.png'
+            img: PNJImg
         },
         {
             name: 'Samsung',
-            img: '../../public/image/partner/samsung.png'
+            img: samsungImg
         },
         {
             name: 'VNG',
-            img: '../../public/image/partner/vng.png'
+            img: vngImg
         },
         {
             name: 'Thế giới di động',
-            img: '../../public/image/partner/thegioididong.png'
+            img: tgddImg
         },
         {
             name: 'Zalo Pay',
-            img: '../../public/image/partner/zalopay.png'
+            img: zaloImg
         },
         {
             name: 'Traveloka',
-            img: '../../public/image/partner/traveloka.png'
+            img: travelokaImg
         },
         {
             name: 'Shopee',
-            img: '../../public/image/partner/shopee.png'
+            img: shopeeImg
         },
     ]
 
