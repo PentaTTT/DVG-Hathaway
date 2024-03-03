@@ -61,7 +61,7 @@ const Service = ({ haveTitle }) => {
             ]
         },
     ]
-    console.log(serviceList)
+
 
     return (
         <div className='wrapper lg:my-24 my-12'>
