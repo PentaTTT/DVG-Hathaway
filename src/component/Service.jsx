@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import tiktokLogo from '../assets/partner/tiktok.png'
+import tiktokLogoHover from '../assets/partner/tiktok-hover.png'
 
 const Service = ({ haveTitle }) => {
     const [isHover, setIsHover] = useState({ id: null, status: false })
@@ -34,8 +35,8 @@ const Service = ({ haveTitle }) => {
         },
         {
             id: 4,
-            img: '../assets/partner/tiktok.png',
-            imgHover: '../assets/partner/tiktok-hover.png',
+            img: {tiktokLogo},
+            imgHover: {tiktokLogoHover},
             title: 'Xây Kênh Tiktok',
             sub: [
                 'Tư Vấn Xây Kênh Tiktok', 'Sản Xuất Content', 'Quản Lý Kênh'
