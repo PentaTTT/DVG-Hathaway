@@ -6,4 +6,5 @@ export const path = {
     CONTACT: '/DVG-Hathaway/contact',
     PROJECT: '/DVG-Hathaway/project',
     PROJECTDETAIL: '/DVG-Hathaway/project-detail',
+    SERVICEDETAIL: '/DVG-Hathaway/service-detail',
 }
