@@ -4,15 +4,16 @@ import { NavLink } from 'react-router-dom';
 import { BsChevronDown } from "react-icons/bs";
 import MobileMenu from './MobileMenu';
 import { useNavigate } from 'react-router-dom';
-import logoDVG from '../../public/image/logoEmptyBG.png'
+import logoDVG from '../../public/image/logoEmptyBG.png';
+import { path } from '../ultils/constant'
 
 const Navbar = () => {
     const navItems = [
-        { name: "TRANG CHỦ", link: "/" },
-        { name: "GIỚI THIỆU", link: "/about" },
-        { name: "DỊCH VỤ", link: "/service" },
-        { name: "DỰ ÁN", link: "/project" },
-        { name: "LIÊN HỆ", link: "/contact" },
+        { name: "TRANG CHỦ", link: `${path.HOME}` },
+        { name: "GIỚI THIỆU", link: `${path.ABOUT}` },
+        { name: "DỊCH VỤ", link: `${path.SERVICE}` },
+        { name: "DỰ ÁN", link: `${path.PROJECT}` },
+        { name: "LIÊN HỆ", link: `${path.CONTACT}` },
     ]
     const nav = useNavigate()
 
@@ -27,7 +28,7 @@ const Navbar = () => {
             <div className='wrapper flex items-center justify-between'>
                 <div className="">
                     <img src={logoDVG} alt="logo" className='lg:w-24 lg:h-24 w-20 cursor-pointer'
-                        onClick={() => nav("/")}
+                        onClick={() => nav(path.HOME2)}
                     />
                 </div>
 
@@ -47,7 +48,7 @@ const Navbar = () => {
                         }
 
                         <button className='h-24 bg-green text-white px-5 text-lg btnEffect'
-                            onClick={() => nav("/contact")}
+                            onClick={() => nav(path.CONTACT)}
                         >
                             Liên hệ ngay <FaLongArrowAltRight className='inline-block text-xl' /></button>
                     </ul>

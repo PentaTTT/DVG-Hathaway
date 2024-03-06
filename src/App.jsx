@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import { Home, ServicePage, About, ContactPage, ProjectPage } from './page/index'
+import { Home, ServicePage, About, ContactPage, ProjectPage, ProjectDetailPage } from './page/index'
 import { path } from './ultils/constant'
 import { Route, Routes } from 'react-router-dom'
 import { ContactBar, Footer, Navbar } from './component'
@@ -73,6 +72,7 @@ function App() {
           <Route path={path.ABOUT} element={<About />} />
           <Route path={path.CONTACT} element={<ContactPage />} />
           <Route path={path.PROJECT} element={<ProjectPage />} />
+          <Route path={path.PROJECTDETAIL} element={<ProjectDetailPage />} />
         </Routes>
       </div>
       <Footer serviceList={serviceList} />

@@ -3,8 +3,11 @@ import aboutImg from '../assets/about.jpg'
 import missionImg from '../assets/mission.webp'
 import visionImg from '../assets/vision.webp'
 import { Team } from '../component'
+import { useNavigate } from 'react-router-dom'
 
 const About = () => {
+    const nav = useNavigate()
+
     return (
         <div className=''>
             <div className='wrapper flex lg:flex-row flex-col-reverse gap-8 pt-5 pb-16'>
@@ -35,7 +38,9 @@ const About = () => {
                         </div>
                     </div>
 
-                    <button className='bg-green px-3 py-2 rounded-md text-yellow-400 mt-5 btnEffect hover:text-yellow-400'>DỊCH VỤ</button>
+                    <button
+                        onClick={() => nav("/service")}
+                        className='bg-green px-3 py-2 rounded-md text-yellow-400 mt-5 btnEffect hover:text-yellow-400'>DỊCH VỤ</button>
                 </div>
                 <div className='w-full px-3 lg:px-0 lg:w-1/2'>
                     <img src={aboutImg} alt="about image"

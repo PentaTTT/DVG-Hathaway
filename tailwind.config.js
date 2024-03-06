@@ -14,7 +14,8 @@ export default {
         hoverGreen: '#025B57',
         gray: 'rgb(104 104 104 / .9)',
         lightGray: '#F8F8F8',
-        orange: '#f1c40f'
+        orange: '#f1c40f',
+        yellowColor: "#E4D08A"
       },
       fontFamily: {
         fontRoboto: ["Roboto Slab", "serif"],
@@ -22,6 +23,7 @@ export default {
       },
       backgroundImage: {
         teamBg: ["linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))", "url('/image/team-bg.webp')"],
+        projectBanner: ["linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))", "url('/image/banner-project.jpg')"],
         dark: "linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))",
         dot: "radial-gradient(black 1px, transparent 0)",
         gold: "linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C)",

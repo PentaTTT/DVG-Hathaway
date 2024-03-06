@@ -3,8 +3,12 @@ import { dataProject } from '../ultils/project'
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { useNavigate } from 'react-router-dom';
+import { path } from '../ultils/constant'
 
 const Project = () => {
+    const nav = useNavigate()
+
     const settings = {
         dots: true,
         infinite: true,
@@ -15,7 +19,7 @@ const Project = () => {
         slidesToScroll: 1,
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 820,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1,
@@ -48,11 +52,12 @@ const Project = () => {
                     dataProject.map(item => {
                         return (
                             <div key={item.id}
-                                className='bg-white h-full rounded-xl shadow-r-md'
+                                onClick={() => nav(path.PROJECTDETAIL, { state: item })}
+                                className='flex bg-white h-fit rounded-xl shadow-r-md cursor-pointer'
                             >
                                 <div className='flex justify-center items-center'>
                                     <img src={item.img} alt={item.title}
-                                        className='h-[260px] w-[285px] object-fit rounded-t-xl'
+                                        className='object-fit rounded-t-xl'
                                     />
                                 </div>
                                 <div className='flex flex-col gap-3 text-center'>
