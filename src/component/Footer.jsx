@@ -2,7 +2,7 @@ import React from 'react'
 import { FaPhone } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
 import { HiOutlineLocationMarker } from "react-icons/hi";
-import logoImg from "../../public/image/logoEmptyBG.png"
+import logoImg from "/image/logoEmptyBG.png"
 
 const Footer = ({ serviceList }) => {
     return (

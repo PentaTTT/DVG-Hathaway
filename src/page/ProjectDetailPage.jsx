@@ -17,7 +17,7 @@ const ProjectDetailPage = () => {
             <div className='wrapper grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 gap-3 py-10'>
                 {projectData && projectData.projectImg.map((item, index) => {
                     return (
-                        <div key={item.id} className=''>
+                        <div key={item.id} className='shadow-md'>
                             <img src={item} alt={index} />
                         </div>
                     )

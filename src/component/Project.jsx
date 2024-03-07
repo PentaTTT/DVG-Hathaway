@@ -57,7 +57,7 @@ const Project = () => {
                             >
                                 <div className='flex justify-center items-center'>
                                     <img src={item.img} alt={item.title}
-                                        className='object-fit rounded-t-xl'
+                                        className='object-cover rounded-t-xl'
                                     />
                                 </div>
                                 <div className='flex flex-col gap-3 text-center'>

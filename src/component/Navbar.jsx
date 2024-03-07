@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import { BsChevronDown } from "react-icons/bs";
 import MobileMenu from './MobileMenu';
 import { useNavigate } from 'react-router-dom';
-import logoDVG from '../../public/image/logoEmptyBG.png';
+import logoDVG from '/image/logoEmptyBG.png';
 import { path } from '../ultils/constant'
 
 const Navbar = () => {
