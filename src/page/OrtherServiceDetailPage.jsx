@@ -1,5 +1,4 @@
 import React from 'react'
-import { serviceList } from '../ultils/serviceDetail'
 import { Contact, Team } from "../component/index"
 import videoBg from "/image/video_service.mp4"
 import MUIDataTable from "mui-datatables";
@@ -17,7 +16,7 @@ const OrtherServiceDetailPage = () => {
         {
             customBodyRender: (value) => (
                 <p
-                    className={`inline-block px-3 py-1 text-white rounded-full ${value === 'true' ? 'bg-lime-500' : value === 'false' ? 'bg-red-500' : 'bg-transparent text-slate-800'}`}
+                    className={`inline-block px-3 py-1 rounded-full ${value === 'true' ? 'bg-lime-500 text-white' : value === 'false' ? 'bg-red-500 text-white' : 'bg-transparent text-slate-800'}`}
                 >{value}</p>
             )
         }
@@ -26,7 +25,6 @@ const OrtherServiceDetailPage = () => {
 
 
     const data = serviceData?.serviceDetail?.data
-    console.log(columnsCustome, data)
 
     const options = {
         selectableRows: 'none',
