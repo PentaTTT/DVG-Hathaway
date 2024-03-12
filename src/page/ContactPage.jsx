@@ -13,7 +13,7 @@ const ContactPage = () => {
                         <div className='flex gap-11 p-5 pb-24 bg-lightGray shadow-lg'>
                             <div className='w-2/3'>
                                 <h3 className='text-green text-xl mb-5'>Hotline:</h3>
-                                <p className='mb-[5px]'>Hostline: 0123 456 789</p>
+                                <p className='mb-[5px]'>Hostline: 033 33 69 444</p>
                                 <p>Email: dvghathawayinc@gmail.com</p>
                             </div>
                             <div className='w-1/3'>

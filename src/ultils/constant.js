@@ -7,4 +7,5 @@ export const path = {
     PROJECT: '/project',
     PROJECTDETAIL: '/project-detail',
     SERVICEDETAIL: '/service-detail',
+    SERVICE2DETAIL: '/orservice-detail',
 }

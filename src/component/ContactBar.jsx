@@ -1,25 +1,25 @@
 import React from 'react'
-import fbLogo from '../assets/facebook.svg'
-import igLogo from '../assets/instagram.svg'
-import ytLogo from '../assets/youtube.svg'
+import { FaFacebookMessenger } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
+import { IoMdMail } from "react-icons/io";
 
 const ContactBar = () => {
     return (
         <div className='fixed lg:bottom-[200px] lg:left-[50px] bottom-3 right-3 w-fit lg:w-[40px]'>
-            <ul className='flex md:flex-col gap-3'>
+            <ul className='flex justify-center items-center md:flex-col gap-5 py-5 bg-white rounded-md'>
                 <li>
-                    <a href="https://www.facebook.com/dvghathawayvietnam" target='_blank'>
-                        <img src={fbLogo} alt="facebook" />
+                    <a href="https://www.messenger.com/t/dvghathawayvietnam" target='_blank'>
+                        <FaFacebookMessenger className='text-lightGreen w-6 h-6' />
                     </a>
                 </li>
                 <li>
                     <a href="https://www.facebook.com/dvghathawayvietnam" target='_blank'>
-                        <img src={igLogo} alt="facebook" />
+                        <FaPhoneAlt className='text-lightGreen w-6 h-6' />
                     </a>
                 </li>
                 <li>
                     <a href="https://www.facebook.com/dvghathawayvietnam" target='_blank'>
-                        <img src={ytLogo} alt="facebook" />
+                        <IoMdMail className='text-lightGreen w-6 h-6' />
                     </a>
                 </li>
             </ul>

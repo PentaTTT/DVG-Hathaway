@@ -15,7 +15,8 @@ export default {
         gray: 'rgb(104 104 104 / .9)',
         lightGray: '#F8F8F8',
         orange: '#f1c40f',
-        yellowColor: "#E4D08A"
+        yellowColor: "#E4D08A",
+        lightGreen: '#1DC9A7',
       },
       fontFamily: {
         fontRoboto: ["Roboto Slab", "serif"],

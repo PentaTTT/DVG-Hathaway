@@ -5,7 +5,6 @@ const ProjectDetailPage = () => {
     const location = useLocation();
     const projectData = location.state
 
-    console.log(projectData)
     return (
         <div>
             <div className='bg-projectBanner lg:h-[24vw] h-52 px-3'>

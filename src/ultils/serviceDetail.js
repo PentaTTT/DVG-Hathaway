@@ -1,12 +1,14 @@
+import tiktokLogo from '../assets/partner/tiktok.png'
+import tiktokHoverLogo from '../assets/partner/tiktok-hover.png'
 
-export const serviceDetail = [
+export const serviceNetFanPage = [
     {
         id: 1,
         name: "Việt Nam News",
         follow: "1,100,000",
         link: "https://www.facebook.com/fanpagevietnamnews",
         cost: "5,000,000",
-        img: "https://scontent.fhan5-9.fna.fbcdn.net/v/t39.30808-6/384760026_279436664972568_5043661202900360321_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHSFNrGeVAkv7McvaME1oxEkxzoV32pgGWTHOhXfamAZdrJNHpJsuqJb6jT8j67NvkrbB8anVX8fwCdew3ZG1Ig&_nc_ohc=508sjO1DqRQAX8NZETp&_nc_ht=scontent.fhan5-9.fna&oh=00_AfBo_h0irUC8rbdjPhZJbfOBtQszZtbFM7XsYU-xn9MnUQ&oe=65ED6B77"
+        img: "https://i.pinimg.com/originals/ab/54/d9/ab54d92349eeee4b2287e3369366d4c6.jpg"
     },
     {
         id: 2,
@@ -14,7 +16,7 @@ export const serviceDetail = [
         follow: "373,000",
         link: "https://www.facebook.com/quangninhfanpage.official",
         cost: "3,000,000",
-        img: "https://scontent.fhan5-10.fna.fbcdn.net/v/t39.30808-6/381404275_215441574868345_429200422740871681_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeE1IRD-1S1_y8mg386GRo7NRkqN7ymR1bJGSo3vKZHVssbbWRFYIFoHrHLl85BAGBTQG6zzUGJP57Bel5pa0npF&_nc_ohc=CELy4ZrF13YAX8AEezR&_nc_ht=scontent.fhan5-10.fna&oh=00_AfBJ4s-6gCG6PlXslW37RW7Kf04m6r3h5zvK5pTirj0ZRQ&oe=65ECE9C9"
+        img: "https://i.pinimg.com/originals/2e/97/fd/2e97fd242eb8c2d4bffd0426ef084106.jpg"
     },
     {
         id: 3,
@@ -22,7 +24,7 @@ export const serviceDetail = [
         follow: "861,000",
         link: "https://www.facebook.com/Page.HaiPhong",
         cost: "4,000,000",
-        img: "https://scontent.fhan5-9.fna.fbcdn.net/v/t39.30808-6/371335374_677123274444127_6484243427214960842_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEYsnUqbGt4r4abAGZgI_BIMhuRvdmse9wyG5G92ax73AtXEGtkRHd8OuRdbK2CsnO6I_y3MQ7g54GpQMECdaFL&_nc_ohc=vuoMYT7XpRoAX_Uo0qo&_nc_oc=AQnMbHr58VtuQHeM6M4lni49u0qZYSOj2ojcPuO4iH7O8iCjW3XzBokf74IyaVWblFM&_nc_ht=scontent.fhan5-9.fna&oh=00_AfD0v_z2WLw5ycg9mUq-mwbGTNiiH08fDc1Q3KNWehQ-rA&oe=65ED5E12",
+        img: "https://i.pinimg.com/originals/db/12/5f/db125f2e4b7d7f026dc68297bcd850f8.jpg",
     },
     {
         id: 4,
@@ -30,7 +32,7 @@ export const serviceDetail = [
         follow: "1,900,000",
         link: "https://www.facebook.com/lopnguoita.fp",
         cost: "6,000,000",
-        img: "https://scontent.fhan5-9.fna.fbcdn.net/v/t39.30808-6/350944901_1409437176509442_586135470001039674_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGcxgwTXuOvY_olSd3HMoQSxg6p4OcRo_HGDqng5xGj8Rr0cdM2UdhD5yISYKq4qacswFae3AyNUH7F3LoC3OkA&_nc_ohc=OOWQhVCtNO8AX8DYUIQ&_nc_ht=scontent.fhan5-9.fna&oh=00_AfC_vglk_e4ddeiJMx-t9tWoixG3WDuj3nK1930mPL0IlA&oe=65EE0494",
+        img: "https://i.pinimg.com/originals/63/db/38/63db38b1d2edafc9fa58a2f078cde9bd.jpg",
     },
     {
         id: 5,
@@ -38,7 +40,7 @@ export const serviceDetail = [
         follow: "945,000",
         link: "https://www.facebook.com/khaunghiepfp",
         cost: "6,000,000",
-        img: "https://scontent.fhan5-9.fna.fbcdn.net/v/t39.30808-6/304938783_381949074133529_7607546929069979101_n.png?_nc_cat=1&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGh3euEd_MEgZaQjuPhsxqtLvbGzlx2vIYu9sbOXHa8hsZJpKERRp1EvxtK1i00XAyjmc6n9xtyq7MPWVFjABBk&_nc_ohc=MuIEZuwbCi8AX8_qCF-&_nc_ht=scontent.fhan5-9.fna&oh=00_AfBuQy4a-Ll9ypmbo1VJ0JtU8gY3Rcu2k85oOdrmjKVOiA&oe=65EDC826",
+        img: "https://i.pinimg.com/originals/a5/aa/b3/a5aab369ce3e1573169ffe673f7e62c2.png",
     },
     {
         id: 6,
@@ -46,7 +48,7 @@ export const serviceDetail = [
         follow: '220,000',
         link: "https://www.facebook.com/fanpage.nguoihaiphong",
         cost: "2,000,000",
-        img: "https://scontent.fhan5-9.fna.fbcdn.net/v/t39.30808-6/368731631_252464670993643_5093140572203872754_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEdkvMLi2Prbc61uIS0RXveIj-iNe-CDeIiP6I174IN4pKGdXQ5YOAbqG0SY18ySGyu-X1OXsHU3NXQXHgG_iOS&_nc_ohc=BWv8GKaR9OYAX-O6g_N&_nc_oc=AQmkoc6FNLmfEDLJlYubJ8aKUQy0dNvWPArsdyBk-GU3PhTVjmQVHoqySVLn5RkzqhM&_nc_ht=scontent.fhan5-9.fna&oh=00_AfDJD4DRdH-bpHulhzeRceeB9CROLfsEijqZBBA2ScIfQw&oe=65EDD703",
+        img: "https://i.pinimg.com/originals/f1/53/7b/f1537bd5679fd234762ce920f2f5048e.jpg",
     },
     {
         id: 7,
@@ -54,7 +56,7 @@ export const serviceDetail = [
         follow: "169,000",
         link: "https://www.facebook.com/groups/Nhipsong.HaiPhong",
         cost: "2,000,000",
-        img: "https://scontent.fhan5-2.fna.fbcdn.net/v/t39.30808-6/258147902_4513277085452449_762213249036813248_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGiXJS1kVo6HChfO8z_hGVDxvg65w1L56nG-DrnDUvnqTHEQ77B7l3cQHjG6uxUaKm6LhcLtmgIuyCon9yMJWhX&_nc_ohc=FIYyMDElZSUAX9MxZZy&_nc_ht=scontent.fhan5-2.fna&oh=00_AfDcjR2wfyLSIOOhwZZM2KUeUyc5WTWcwtNdp6Luu_VtFw&oe=65EE1BEF",
+        img: "https://i.pinimg.com/originals/c3/4b/f7/c34bf7498a2d6467bb0f350fc7b96786.jpg",
     },
     {
         id: 8,
@@ -62,7 +64,7 @@ export const serviceDetail = [
         follow: "297,000",
         link: "https://www.facebook.com/groups/Page.HaiPhong",
         cost: "2,000,000",
-        img: "https://scontent.fhan5-8.fna.fbcdn.net/v/t39.30808-6/414431628_6970719759691552_3247814039052198913_n.png?stp=dst-jpg&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHsEkGBteF6Gcv7DqW_rEOOg02eSz3erFiDTZ5LPd6sWOG_JeMfbPqi9Q1N7tRa9nt_AsOLeGXRLEo7bVIw-Rg1&_nc_ohc=d0eqaCRYYyUAX9SjThz&_nc_ht=scontent.fhan5-8.fna&oh=00_AfAaCc3PbxIGzaNVhzAhk5M5oTynOMAew3xbqEJHapIZBg&oe=65EF00AC",
+        img: "https://i.pinimg.com/originals/d4/f2/c4/d4f2c46346651e147894f3b72cfb3b57.jpg",
     },
     {
         id: 9,
@@ -70,6 +72,142 @@ export const serviceDetail = [
         follow: "872,000",
         link: "https://www.facebook.com/groups/330142177560573",
         cost: "6,000,000",
-        img: "https://scontent.fhan5-8.fna.fbcdn.net/v/t1.6435-9/154896507_10102099428211386_2023086836305514614_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGAvaRNDpXVcFUPVP3RdgKS-hCqr-Wq-ff6EKqv5ar591gU0GdokEiWYeBm15SqOIO9xKjF_Iy8DGQFdzMElAEx&_nc_ohc=RG3aAhxdIGEAX8dq7cD&_nc_ht=scontent.fhan5-8.fna&oh=00_AfB6yt8NzTyRT3FEsXW_wclUA85jzhuiyKzIzPM5AUtWKg&oe=661084C8",
+        img: "https://i.pinimg.com/originals/08/e8/25/08e8258d68527686253fb766b2942fe3.png",
+    },
+]
+
+export const serviceList = [
+    {
+        id: 1,
+        img: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/dich-vu-5.png',
+        imgHover: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/hover-dich-vu-5.png',
+        title: 'Quản trị Fanpage',
+        sub: [
+            'Quản lý Fanpage', 'Content', 'Facebook Ads'
+        ],
+        serviceDetail: {
+            columns: ["Hạng Mục", "Nội Dung", "Gói Cơ Bản (7tr VNĐ)", "Gói Tiêu Chuẩn (10tr VNĐ)", "Gói Nâng Cao (15tr VNĐ)"],
+            data: [
+                [
+                    "Chiến lược & kế hoạch",
+                    "Nghiên cứu về mô hình kinh doanh",
+                    "false",
+                    "true",
+                    "true"
+                ],
+                [
+                    "Chiến lược & kế hoạch",
+                    "Nghiên cứu về sản phẩm và thương hiệu",
+                    "false",
+                    "true",
+                    "true"
+                ],
+                [
+                    "Chiến lược & kế hoạch",
+                    "Nghiên cứu chuẩn SEO social content",
+                    "false",
+                    "true",
+                    "true"
+                ],
+                [
+                    "Chiến lược & kế hoạch",
+                    "Chiến lược và xây dựng nội dung theo tháng",
+                    "false",
+                    "false",
+                    "true"
+                ],
+                [
+                    "Triển khai",
+                    "Xây dựng nội dung bài viết",
+                    "30 bài",
+                    "60 bài",
+                    "120 bài"
+                ],
+                [
+                    "Triển khai",
+                    "Chèn logo địa chỉ cho hình ảnh, sản phẩm",
+                    "true",
+                    "true",
+                    "true"
+                ],
+                ["Triển khai", "Thiết kế Banner/Avatar cho fanpage", "false", "true", "true"],
+                ["Triển khai", "Sản xuất video ( bao gồm content, quay, dựng )", "false", "false", "2"],
+                ["Triển khai", "Booking fanpage/group phù hợp", "1", "2", "2"],
+                ["Triển khai", "Giám sát và báo cáo tiến độ theo tuần", "true", "true", "true"],
+                ["Triển khai", "Cam kết tiếp cận tối thiểu", "30000 lượt", "60000 lượt", "120000 lượt"],
+
+                ["Tối ưu fanpage", "Thiết kế chatbox, kịch bản nhắn tin chuyên nghiệp", "false", "true", "true"],
+                ["Tối ưu fanpage", "Tối ưu slogan kênh/ Cập nhật thông tin đầy đủ", "true", "true", "true"],
+                ["Khuyến mãi", "Tặng bài booking social", "false", "false", "1"],
+
+
+            ]
+        },
+    },
+    {
+        id: 2,
+        img: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/dich-vu-4.png',
+        imgHover: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/hover-dich-vu-4.png',
+        title: 'Website',
+        sub: [
+            'Tư Vấn & Xây Dựng Website', 'SEO Website', 'Mua Tên Miền'
+        ]
+    },
+    {
+        id: 3,
+        img: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/dich-vu-2.png',
+        imgHover: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/hover-dich-vu-2.png',
+        title: 'Network Fanpage',
+        sub: [
+            'Booking Hot Page', 'Đăng Ảnh & Video', 'Post Bài'
+        ]
+    },
+    {
+        id: 4,
+        img: tiktokLogo,
+        imgHover: tiktokHoverLogo,
+        title: 'Xây Kênh Tiktok',
+        sub: [
+            'Tư Vấn Xây Kênh Tiktok', 'Sản Xuất Content', 'Quản Lý Kênh'
+        ],
+        serviceDetail: {
+            columns: ["Nội Dung", "Gói Cơ Bản", "Gói Tiêu Chuẩn", "Gói Nâng Cao", "Gói Viral"],
+            data: [
+                ["Tạo kênh và đặt tên kênh", "true", "true", "true", "true"],
+                ["Nghiên cứu và phân tích khách hàng", "true", "true", "true", "true"],
+                ["Xây dựng kịch bản", "true", "true", "true", "true"],
+                ["Cập nhật hồ sơ kênh", "true", "true", "true", "true"],
+                ["Tối ưu hastag bài đăng", "true", "true", "true", "true"],
+                ["Xử lí sự cố, cmt tiêu cực", "true", "true", "true", "true"],
+                ["Thời gian triển khai", "2 tháng", "3 tháng", "3 tháng", "3 tháng"],
+                ["Chất lượng video", "Full HD", "Full HD", "Full HD", "Full HD",],
+                ["Ekip triển khai", "true", "true", "true", "true"],
+                ["Số buổi quay", "6", "10", "12", "12"],
+                ["Số lượng video", "20", "30", "35", "50"],
+                ["Thời lượng video", "30-60s", "30-60s", "30-1p30s", "30-1p30s"],
+                ["Bối cảnh", "1", "1", "2", "2"],
+                ["Dựng hậu kỳ", "true", "true", "true", "true"],
+                ["Lượng follower kênh", "10k followers", "30k followers", "50k followers", "100k followers"],
+                ["Số views tối thiểu đạt được", "300k views", "500k views", "110k views", "3M views"],
+            ]
+        }
+    },
+    {
+        id: 5,
+        img: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/dich-vu-1.png',
+        imgHover: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/hover-dich-vu-1.png',
+        title: 'Partnership',
+        sub: [
+            'Kết Nối Khách Hàng Với Các Kênh Truyền Thông', 'Booking Hot Page', 'Truyền Thông Số Tích Hợp'
+        ]
+    },
+    {
+        id: 6,
+        img: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/dich-vu-6.png',
+        imgHover: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/hover-dich-vu-6.png',
+        title: 'Dịch Vụ Thiết Kế',
+        sub: [
+            'Thiết Kế Logo', 'Thiết Kế Banner', 'Thiết Kế Các Ấn Phẩm In Ấn'
+        ]
     },
 ]

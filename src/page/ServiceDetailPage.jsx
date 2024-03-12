@@ -1,6 +1,7 @@
 import React from 'react'
-import { serviceDetail } from '../ultils/serviceDetail'
+import { serviceNetFanPage } from '../ultils/serviceDetail'
 import videoBg from "/image/video_service.mp4"
+import { Contact, Team } from '../component'
 
 const ServiceDetailPage = () => {
 
@@ -21,8 +22,8 @@ const ServiceDetailPage = () => {
             <div className='wrapper py-10'>
                 <h2 className='text-center text-green font-bold font-fontRoboto text-2xl my-10'>Network Fanpage</h2>
                 <div className='grid lg:grid-cols-3 gap-5 p-5 md:grid-cols-2'>
-                    {serviceDetail && serviceDetail.length > 0 &&
-                        serviceDetail.map((item) => {
+                    {serviceNetFanPage && serviceNetFanPage.length > 0 &&
+                        serviceNetFanPage.map((item) => {
                             return (
                                 <div key={item.id}
                                     className='bg-white flex justify-center p-5 rounded-md shadow-md'
@@ -48,6 +49,9 @@ const ServiceDetailPage = () => {
                 </div>
 
             </div>
+
+            <Team />
+            <Contact />
         </div>
     )
 }
