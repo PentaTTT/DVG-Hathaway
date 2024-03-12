@@ -54,7 +54,6 @@ const OrtherServiceDetailPage = () => {
                     },
                     body: {
                         padding: "15px 20px",
-                        color: "#dđd"
                     },
                 }
             }
