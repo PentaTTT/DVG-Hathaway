@@ -20,7 +20,7 @@ export default {
       },
       fontFamily: {
         fontRoboto: ["Roboto Slab", "serif"],
-        fontJosefin: ["Josefin Sans", "sans-serif"]
+        fontJosefin: ["Open Sans", "sans-serif"]
       },
       backgroundImage: {
         teamBg: ["linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))", "url('/image/team-bg.webp')"],

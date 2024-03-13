@@ -12,7 +12,7 @@ const Banner = () => {
             </div>
 
             <div className='wrapper'>
-                <div className='absolute top-10 lg:top-[15%] mx-5 xl:mx-0'>
+                <div className='absolute top-10 md:top-[10%] mx-5 xl:mx-0'>
                     <h1 data-aos="fade-right" data-aos-duration="2000"
                         className='text-2xl md:text-5xl lg:text-7xl font-fontRoboto bg-gold text-transparent bg-clip-text z-10 '>DVG HATHAWAY</h1>
                     <p data-aos="fade-down" data-aos-duration="2500"

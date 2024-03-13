@@ -17,7 +17,7 @@ const OrtherServiceDetailPage = () => {
             customBodyRender: (value) => (
                 <p
                     className={`inline-block px-3 py-1 rounded-full ${value === 'true' ? 'bg-lime-500 text-white' : value === 'false' ? 'bg-red-500 text-white' : 'bg-transparent text-slate-800'}`}
-                >{value}</p>
+                >{value === 'true' ? 'Có' : value === 'false' ? 'Không' : value}</p>
             )
         }
     }))

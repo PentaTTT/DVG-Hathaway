@@ -146,20 +146,20 @@ export const serviceList = [
     },
     {
         id: 2,
-        img: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/dich-vu-4.png',
-        imgHover: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/hover-dich-vu-4.png',
-        title: 'Website',
-        sub: [
-            'Tư Vấn & Xây Dựng Website', 'SEO Website', 'Mua Tên Miền'
-        ]
-    },
-    {
-        id: 3,
         img: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/dich-vu-2.png',
         imgHover: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/hover-dich-vu-2.png',
         title: 'Network Fanpage',
         sub: [
             'Booking Hot Page', 'Đăng Ảnh & Video', 'Post Bài'
+        ]
+    },
+    {
+        id: 3,
+        img: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/dich-vu-1.png',
+        imgHover: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/hover-dich-vu-1.png',
+        title: 'Booking',
+        sub: [
+            'Booking KOL', 'Booking KOC', 'Truyền Thông Số Tích Hợp'
         ]
     },
     {
@@ -194,20 +194,52 @@ export const serviceList = [
     },
     {
         id: 5,
-        img: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/dich-vu-1.png',
-        imgHover: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/hover-dich-vu-1.png',
-        title: 'Partnership',
+        img: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/dich-vu-4.png',
+        imgHover: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/hover-dich-vu-4.png',
+        title: 'Website',
         sub: [
-            'Kết Nối Khách Hàng Với Các Kênh Truyền Thông', 'Booking Hot Page', 'Truyền Thông Số Tích Hợp'
-        ]
+            'Tư Vấn & Xây Dựng Website', 'SEO Website', 'Mua Tên Miền'
+        ],
+        serviceDetail: {
+            columns: ["Dịch Vụ", "Mô Tả", "Báo Giá"],
+            data: [
+                ["Tư vấn & lấy yêu cầu", "Tư vấn & lấy yêu cầu về loại, giao diện, nội dung và chức năng của website", ""],
+                ["Hoạch định chiến lược", "Định hướng mục tiêu, định vị thương hiệu, thị trường, phân tích người dùng..", ""],
+                ["Viết nội dung", "Hoàn thiện những nội dung như giới thiệu công ty, dịch vụ", ""],
+                ["Xây dựng, Lập trình website", "Xây dựng website theo giao diện, chức năng đã chốt (hình ảnh, video do khách cung cấp). Tối ưu độ tương thích với PC, Mobile, Tablet", ""],
+                ["Mua tên miền và hosting", "Hỗ trợ mua tên miền và hosting để triển khai chạy trên các trình duyệt (mất phí gia hạn từ năm thứ 2 với hosting và tháng thứ 2 với tên miền)", ""],
+                ["Dịch vụ hỗ trợ", "Chuyển giao hướng dẫn quản trị website, Cập nhật các hình ảnh nội dung, backup dữ liệu", ""],
+                ["Dịch vụ SEO website", "Hoạch định các nội dung chiến lượt tối ưu SEO cho website, Quảng bá cũng như xây dựng tính liên kết", ""]
+            ]
+        }
     },
     {
         id: 6,
         img: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/dich-vu-6.png',
         imgHover: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/hover-dich-vu-6.png',
-        title: 'Dịch Vụ Thiết Kế',
+        title: 'Thiết Kế',
         sub: [
             'Thiết Kế Logo', 'Thiết Kế Banner', 'Thiết Kế Các Ấn Phẩm In Ấn'
-        ]
+        ],
+        serviceDetail: {
+            columns: ["Dịch Vụ", "Mô Tả", "Thời Gian Hoàn Thành", "Báo Giá"],
+            data: [
+                ["Thiết kế banner website/ facebook", "Chi phí tùy thuộc vào độ cầu kỳ của thiết kế", "3 ngày", "Từ 600.000đ trở lên"],
+                ["Thiết kế logo", "Thiết kế dựa trên ý tưởng có sẵn của khách hàng", "1-7 ngày", "Từ 2.000.000đ trở lên"],
+                ["Thiết kế bài đăng facebook (LẺ 1 ẢNH)", "Chi phí tùy thuộc vào độ cầu kỳ của thiết kế", "3 ngày", "Từ 600.000đ/ảnh trở lên"],
+                ["Thiết kế bài đăng facebook (COMBO 10 ẢNH)", "Số lần chỉnh sửa: 2", "1-3 ngày", "Từ 4.000.000đ trở lên"],
+                ["Thiết kế powerpoint thuyết trình - Chỉ thiết kế", "Chi phí tùy thuộc vào độ cầu kỳ của thiết kế", "1-3 ngày", "Từ 300.000đ/trang trở lên"],
+                ["Thiết kế Standee, phướn, băng rôn", "Số lần chỉnh sửa: 2", "3 ngày", "500.000đ"],
+                ["Thiết kế backdrop sự kiện (hội nghị, sinh nhật, event,...)", "Chi phí tùy thuộc vào độ cầu kỳ của thiết kế", "3 ngày", "Từ 600.000đ/ảnh trở lên"],
+                ["Thiết kế tờ rơi (flyer), tờ gấp (leaflet) - Chỉ thiết kế", "Nội dung khách hàng cung cấp", "3-5 ngày", "Từ 500.000đ/trang trở lên"],
+                ["Thiết kế tờ rơi (flyer), tờ gấp (leaflet) - Bao gồm soạn nội dung", "Nội dung khách hàng cung cấp", "3-5 ngày", "Từ 800.000đ/trang trở lên"],
+                ["Thiết kế phong bì thư, Thiết kế thiệp mời", "Chi phí tùy thuộc vào độ cầu kỳ của thiết kế", "3-5 ngày", "Từ 400.000đ trở lên"],
+                ["Thiết kế menu, thực đơn", "Chi phí tùy thuộc vào độ cầu kỳ của thiết kế", "7-10 ngày", "Từ 400.000đ/trang trở lên"],
+                ["Thiết kế hồ sơ năng lực - Chỉ thiết kế", "Chi phí tùy thuộc vào độ cầu kỳ của thiết kế - Khách hàng cung cấp file word/excel nội dung và hình ảnh", "20 ngày", "Từ 500.000đ/trang"],
+                ["Thiết kế hồ sơ năng lực - Bao gồm soạn nội dung", "Chi phí tùy thuộc vào độ cầu kỳ của thiết kế - Khách hàng cung cấp file word/excel nội dung và hình ảnh", "15-25 ngày", "Từ 700.000đ/trang"],
+                ["Thiết kế thẻ đeo, thẻ VIP, thẻ bảo hành, card visit…", "Chi phí tùy thuộc vào độ cầu kỳ của thiết kế", "3-5 ngày", "Từ 400.000đ trở lên"],
+                ["Thiết kế hình in trên áo", "Chi phí tùy thuộc vào độ cầu kỳ của thiết kế", "5-7 ngày", "Từ 800.000đ trở lên"],
+            ]
+        }
     },
 ]

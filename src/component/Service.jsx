@@ -18,11 +18,11 @@ const Service = ({ haveTitle }) => {
             '>
                 {serviceList && serviceList.length > 0 &&
                     serviceList.map((item) => {
-                        return <div key={item.id} className='text-center min-h-[280px] bg-white hover:shadow-2xl ease-in-out duration-200'
+                        return <div key={item.id} className='text-center min-h-[280px] bg-white hover:shadow-2xl ease-in-out duration-200 cursor-pointer'
                             onMouseEnter={() => { setIsHover({ id: item.id, status: true }) }}
                             onMouseLeave={() => { setIsHover({ id: null, status: false }) }}
                             onClick={() => {
-                                item.id && item.id === 3 ?
+                                item.id && item.id === 2 ?
                                     nav(path.SERVICEDETAIL)
                                     :
                                     nav(path.SERVICE2DETAIL, { state: item })
