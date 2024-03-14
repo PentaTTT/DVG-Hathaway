@@ -4,6 +4,8 @@ import App from './App.jsx'
 import './index.scss'
 import { BrowserRouter, HashRouter } from 'react-router-dom'
 import ScrollToTop from './component/ScrollToTop.jsx'
+import "react-image-lightbox/style.css";
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

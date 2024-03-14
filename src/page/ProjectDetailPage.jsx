@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import { Team, Contact } from '../component/index'
 import Lightbox from "react-image-lightbox";
-import "react-image-lightbox/style.css";
 import "./init"
 
 const ProjectDetailPage = () => {
@@ -18,13 +17,20 @@ const ProjectDetailPage = () => {
     return (
         <div>
             <div className='bg-projectBanner lg:h-[24vw] h-52 px-3'>
-                <div className='wrapper flex flex-col justify-between h-full lg:pt-24 pt-8 pb-8 '>
-                    <h1 className='text-4xl text-yellowColor'>{projectData.title}</h1>
-                    <p className='text-xl text-white'>{projectData.type}</p>
+                <div className='wrapper flex flex-col justify-between h-full xl:pt-12 pt-5 pb-5 '>
+                    <h1 className='xl:text-4xl text-2xl text-yellowColor'>{projectData.title}</h1>
+                    <ul >
+                        {projectData?.desc &&
+                            projectData?.desc?.map((item, index) => {
+                                return <li key={index} className='xl:text-base text-sm text-white'>{item}</li>
+                            })
+                        }
+                    </ul>
+
                 </div>
             </div>
 
-            <div className='wrapper grid lg:grid-cols-4 md:grid-cols-2 lg:px-0 px-3 grid-cols-2 gap-3 py-10'>
+            <div className='wrapper grid lg:grid-cols-4 md:grid-cols-2 xl:px-0 px-3 grid-cols-2 gap-3 py-10'>
                 {projectData && projectData.projectImg.map((item, index) => {
                     return (
                         <div key={index}>
@@ -35,11 +41,14 @@ const ProjectDetailPage = () => {
                             </div>
 
                             {isOpen && (
+
                                 <Lightbox
+                                    className="!text-white"
                                     key={key}
                                     mainSrc={currentImg}
                                     onCloseRequest={() => setIsOpen(false)}
                                 />
+
                             )}
                         </div>
                     )
