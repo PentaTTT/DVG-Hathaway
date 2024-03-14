@@ -1,48 +1,7 @@
 import React from 'react'
-import vinImg from '../assets/partner/vinfast.png'
-import PNJImg from '../assets/partner/pnj.png'
-import samsungImg from '../assets/partner/samsung.png'
-import tgddImg from '../assets/partner/thegioididong.png'
-import zaloImg from '../assets/partner/zalopay.png'
-import vngImg from '../assets/partner/vng.png'
-import travelokaImg from '../assets/partner/traveloka.png'
-import shopeeImg from '../assets/partner/shopee.png'
+import { listPartner } from '../ultils/partner'
 
 const Partner = () => {
-    const listPartner = [
-        {
-            name: 'Vinfast',
-            img: vinImg
-        },
-        {
-            name: 'PNJ',
-            img: PNJImg
-        },
-        {
-            name: 'Samsung',
-            img: samsungImg
-        },
-        {
-            name: 'VNG',
-            img: vngImg
-        },
-        {
-            name: 'Thế giới di động',
-            img: tgddImg
-        },
-        {
-            name: 'Zalo Pay',
-            img: zaloImg
-        },
-        {
-            name: 'Traveloka',
-            img: travelokaImg
-        },
-        {
-            name: 'Shopee',
-            img: shopeeImg
-        },
-    ]
 
     return (
         <div className='text-center lg:py-24 py-12 bg-gradient-to-r from-white to-bgCream'>
@@ -65,7 +24,7 @@ const Partner = () => {
                                 before:w-full before:h-full after:w-full after:h-full
                                 '>
 
-                                <div className='w-[220px] h-[130px] mx-auto'>
+                                <div className='w-full h-32 mx-auto'>
                                     <img className='object-cover p-3 mx-auto w-auto h-full group-hover:scale-110 transition-all ease-in-out duration-[300ms]'
                                         src={item.img} alt={item.name} />
                                 </div>
