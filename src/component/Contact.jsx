@@ -1,10 +1,6 @@
 import React from 'react'
 
 const Contact = () => {
-    // background: white;
-    // background - image: radial - gradient(black 1px, transparent 0);
-    // background - size: 40px 40px;
-    // background - position: -19px - 19px;
     const inputCss = 'lg:w-[30%] w-5/6 p-3 rounded-md'
 
     return (
@@ -16,22 +12,22 @@ const Contact = () => {
             </div>
 
             <div className='pt-7 mx-auto text-center'>
-                <form className="flex flex-col gap-7" action="">
+                <form className="flex flex-col gap-7" method='GET' action="https://script.google.com/macros/s/AKfycbzxc8C1DksY8gr-Znb7VlyrAi15rClqnm7EmzKfq8uzB8tPxHAyJsl9qwhgUKi_0dfrMQ/exec">
                     <div>
                         <label htmlFor=""></label>
-                        <input className={inputCss} type="text" placeholder='Họ và tên (*)' />
+                        <input className={inputCss} name='Họ tên' type="text" placeholder='Họ và tên (*)' />
                     </div>
                     <div>
                         <label htmlFor=""></label>
-                        <input className={inputCss} type="text" placeholder='Số điện thoại (*)' />
+                        <input className={inputCss} name='SĐT' type="text" placeholder='Số điện thoại (*)' />
                     </div>
                     <div>
                         <label htmlFor=""></label>
-                        <input className={inputCss} type="text" placeholder='Email của bạn (*)' />
+                        <input className={inputCss} name='Email' type="text" placeholder='Email của bạn (*)' />
                     </div>
                     <div>
                         <textarea className={inputCss}
-                            name="" id="" cols="30" rows="7" placeholder='Lời nhắn'>
+                            name="Lời nhắn" id='' cols="30" rows="7" placeholder='Lời nhắn'>
                         </textarea>
                     </div>
                     <button className='bg-green btnEffect mx-auto p-3 rounded-md flex items-center text-yellow-400 hover:text-yellow-400' type='submit'>GỬI LIÊN HỆ</button>
