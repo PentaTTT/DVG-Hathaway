@@ -13,12 +13,12 @@ const ContactBar = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/dvghathawayvietnam" target='_blank'>
+                    <a href="tel:0984271645" target='_blank'>
                         <FaPhoneAlt className='text-lightGreen w-6 h-6' />
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/dvghathawayvietnam" target='_blank'>
+                    <a href="mailto:dvghathawayinc@gmail.com" target='_blank'>
                         <IoMdMail className='text-lightGreen w-6 h-6' />
                     </a>
                 </li>
