@@ -53,11 +53,11 @@ const Project = () => {
                         return (
                             <div key={item.id}
                                 onClick={() => nav(path.PROJECTDETAIL, { state: item })}
-                                className='flex bg-white h-fit rounded-xl shadow-r-md cursor-pointer'
+                                className='flex bg-white h-fit rounded-xl shadow-r-md cursor-pointer group'
                             >
-                                <div className='flex justify-center items-center'>
+                                <div className='flex justify-center items-center overflow-hidden'>
                                     <img src={item.img} alt={item.title}
-                                        className='object-cover rounded-t-xl'
+                                        className='object-cover rounded-t-xl group-hover:scale-110 transition-all ease-in-out duration-[300ms]'
                                     />
                                 </div>
                                 <div className='flex flex-col gap-3 text-center'>

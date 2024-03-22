@@ -1,4 +1,4 @@
-import { Home, ServicePage, About, ContactPage, ProjectPage, ProjectDetailPage, ServiceDetailPage, OrtherServiceDetailPage } from './page/index'
+import { Home, ServicePage, About, ContactPage, ProjectPage, ProjectDetailPage, ServiceDetailPage, OrtherServiceDetailPage, BookingService } from './page/index'
 import { path } from './ultils/constant'
 import { Route, Routes } from 'react-router-dom'
 import { ContactBar, Footer, Navbar } from './component'
@@ -75,6 +75,7 @@ function App() {
           <Route path={path.PROJECTDETAIL} element={<ProjectDetailPage />} />
           <Route path={path.SERVICEDETAIL} element={<ServiceDetailPage />} />
           <Route path={path.SERVICE2DETAIL} element={<OrtherServiceDetailPage />} />
+          <Route path={path.SERVICEBOOKING} element={<BookingService />} />
         </Routes>
       </div>
       <Footer serviceList={serviceList} />

@@ -25,7 +25,10 @@ const Service = ({ haveTitle }) => {
                                 item.id && item.id === 2 ?
                                     nav(path.SERVICEDETAIL)
                                     :
-                                    nav(path.SERVICE2DETAIL, { state: item })
+                                    item.id === 3 ?
+                                        nav(path.SERVICEBOOKING)
+                                        :
+                                        nav(path.SERVICE2DETAIL, { state: item })
                             }}
                             data-aos="flip-left" data-aos-duration='2000'
                         >

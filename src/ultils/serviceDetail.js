@@ -1,5 +1,8 @@
 import tiktokLogo from '../assets/partner/tiktok.png'
 import tiktokHoverLogo from '../assets/partner/tiktok-hover.png'
+import { emma, emma2, emma3 } from '../assets/kol/index'
+import { chao, chao2, chao3 } from '../assets/kol/index'
+import { ruby, ruby2, ruby3 } from '../assets/kol/index'
 
 export const serviceNetFanPage = [
     {
@@ -73,6 +76,33 @@ export const serviceNetFanPage = [
         link: "https://www.facebook.com/groups/330142177560573",
         cost: "6,000,000",
         img: "https://i.pinimg.com/originals/08/e8/25/08e8258d68527686253fb766b2942fe3.png",
+    },
+]
+
+export const serviceBooking = [
+    {
+        id: 1,
+        name: "Emma Nhất Khánh",
+        desc: "Post video tiktok và post ảnh fanpage",
+        img: [
+            emma2, emma3, emma
+        ]
+    },
+    {
+        id: 2,
+        name: "Chao (whynotchao)",
+        desc: "Post video tiktok và post ảnh fanpage",
+        img: [
+            chao, chao2, chao3
+        ]
+    },
+    {
+        id: 3,
+        name: "Ruby Bảo An",
+        desc: "Post video tiktok và post ảnh fanpage",
+        img: [
+            ruby, ruby2, ruby3
+        ]
     },
 ]
 

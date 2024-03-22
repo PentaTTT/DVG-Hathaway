@@ -12,13 +12,13 @@ const Partner = () => {
         autoplay: true,
         autoplaySpeed: 2000,
         slidesToShow: 4,
-        slidesToScroll: 1,
+        slidesToScroll: 4,
         responsive: [
             {
                 breakpoint: 820,
                 settings: {
                     slidesToShow: 3,
-                    slidesToScroll: 1,
+                    slidesToScroll: 3,
                     infinite: true,
                     dots: true
                 }

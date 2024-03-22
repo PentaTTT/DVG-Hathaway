@@ -8,4 +8,5 @@ export const path = {
     PROJECTDETAIL: '/project-detail',
     SERVICEDETAIL: '/service-detail',
     SERVICE2DETAIL: '/orservice-detail',
+    SERVICEBOOKING: '/service-booking',
 }
