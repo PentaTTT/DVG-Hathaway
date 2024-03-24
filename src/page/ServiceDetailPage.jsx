@@ -16,7 +16,7 @@ const ServiceDetailPage = () => {
                 <a
                     href={value}
                     target='_blank'
-                    className={!value?.indexOf('https://') && 'px-3 py-2 text-white bg-cyan-600 rounded-md'}
+                    className={!value?.indexOf('https://') && 'px-3 py-2 text-white bg-cyan-700 rounded-md btnEffect'}
                 >{!value?.indexOf('https://') ? 'Xem Fanpage' : value}</a>
             )
         }
