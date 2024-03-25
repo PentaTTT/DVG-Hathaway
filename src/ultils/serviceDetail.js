@@ -1,8 +1,14 @@
 import tiktokLogo from '../assets/partner/tiktok.png'
 import tiktokHoverLogo from '../assets/partner/tiktok-hover.png'
-import { emma, emma2, emma3 } from '../assets/kol/index'
-import { chao, chao2, chao3 } from '../assets/kol/index'
-import { ruby, ruby2, ruby3 } from '../assets/kol/index'
+import {
+    target, targetHover, facebook, facebookHover, ads, adsHover, google, googleHover,
+    fanpage, fanpageHover, media, mediaHover,
+} from '../assets/service/index'
+import { chiennguyen, emma2, emma4, emma5, midha, ngiu99, taconghieu, thanhthy } from '../assets/kol/index'
+import { chao4, chao2, chao5 } from '../assets/kol/index'
+import { ruby, ruby4, ruby5 } from '../assets/kol/index'
+import { lybiettuot, lybiettuot2, lybiettuot3 } from '../assets/kol/index'
+import { thaotran, thaotran2, thaotran3 } from '../assets/kol/index'
 
 export const serviceNetFanPage = [
     {
@@ -79,6 +85,7 @@ export const serviceNetFanPage = [
     },
 ]
 
+//net fanpage
 export const serviceNetFanPageExtra = {
     columns: ["STT", "Tên Fanpage", "Link", "Follow", "Chi Phí Post"],
     data: [
@@ -183,16 +190,54 @@ export const serviceNetFanPageExtra = {
         ['108', 'Gia Lai Trong Tôi', 'https://www.facebook.com/NhaToiGiaLai.Fanpage', '98K', '1.300.000'],
         ['109', 'Chuyện Của Bắc Ninh', 'https://www.facebook.com/NhaToiBacNinh/', '49K', '1.400.000'],
         ['110', 'Nhà Tôi Quảng Bình', 'https://www.facebook.com/nhatoiquangbinh/', '66K', '1.400.000'],
+        ['111', 'Nhà Tôi Sơn La', 'https://www.facebook.com/nhatoisonla/', '135K', '1.500.000'],
+        ['112', 'Nhà Tôi Hải Dương', 'https://www.facebook.com/nhatoihaiduong.fanpage/', '99K', '1.500.000'],
+        ['113', 'Nhà Tôi Hà Nam', 'https://www.facebook.com/nhatoihanam/', '54K', '1.500.000'],
+        ['114', 'Nhà Tôi Ninh Bình', 'https://www.facebook.com/nhatoininhbinh/', '49K', '1.500.000'],
+        ['115', 'Nhà Tôi Yên Bái', 'https://www.facebook.com/nhatoiyenbai/', '127K', '1.500.000'],
+        ['116', 'Nhà Tôi Lào Cai', 'https://www.facebook.com/nhatoilaocai/', '71K', '1.500.000'],
+        ['117', 'Nhà Tôi Phú Thọ', 'https://www.facebook.com/nhatoiphutho/', '91K', '1.500.000'],
+        ['118', 'Nhà Tôi Hà Giang', 'https://www.facebook.com/nhatoihagiang', '72K', '1.500.000'],
+        ['119', 'Nhà Tôi Tiền Giang', 'https://www.facebook.com/Nh%C3%A0-T%C3%B4i-Ti%E1%BB%81n-Giang-101293568284116/', '72K', '1.500.000'],
+        ['120', 'Nhà Tôi Tuyên Quang', 'https://www.facebook.com/nhatoituyenquang/', '66K', '1.500.000'],
+        ['121', 'Nhà Tôi Vĩnh Long', 'https://www.facebook.com/nhatoivinhlong/', '134K', '1.500.000'],
+        ['122', 'Nhà Tôi Vĩnh Phúc', 'https://www.facebook.com/nhatoivinhphuc.fanpage/', '72K', '1.500.000'],
+        ['123', 'Dân Bình Phước', 'https://www.facebook.com/BinhPhuoc93.Fanpage', '112K', '1.500.000'],
+        ['124', 'Thái Nguyên Trong Tôi', 'https://www.facebook.com/nhatoithainguyen.fanpage/', '68K', '1.500.000'],
+        ['125', 'Nhà Tôi Hòa Bình', 'https://www.facebook.com/nhatoihoabinh', '77K', '1.300.000'],
+        ['126', 'Người Bình Thuận', 'https://www.facebook.com/binhthuan86.fanpage', '72K', '1.300.000'],
+        ['127', 'Người Nghệ An', 'https://www.facebook.com/nghean37.fanpage', '114K', '1.300.000'],
+        ['128', 'Người Quảng Ngãi', 'https://www.facebook.com/NhatoiQuangNgai', '27K', '1.300.000'],
+        ['129', 'Người Đồng Tháp', 'https://www.facebook.com/dongthap.fanpage', '113K', '1.200.000'],
+        ['130', 'Người Quảng Nam', 'https://www.facebook.com/quangnam92.fanpage', '84K', '1.500.000'],
+        ['131', 'Long An 62', 'https://www.facebook.com/LongAn62.fanpage', '84K', '1.500.000'],
+        ['132', 'Dân Cần Thơ', 'https://www.facebook.com/dancantho.page', '136K', '1.500.000'],
+        ['133', 'Nhà Tôi Hà Giang', 'https://www.facebook.com/nhatoihagiang', '72K', '1.500.000'],
+        ['134', 'Người An Giang', 'https://www.facebook.com/angiang67.fanpage', '155K', '1.500.000'],
+        ['135', 'Người Ninh Bình', 'https://www.facebook.com/ninhbinh.fanpage', '64K', '1.500.000'],
+        ['136', 'Lang Thang Sài Gòn', 'https://www.facebook.com/langthangsaigonnow', '98K', '1.500.000'],
+        ['137', 'Nhà Tôi Lai Châu', 'https://www.facebook.com/nhatoilaichau', '22K', '1.500.000'],
+        ['138', 'Lang Thang Nam Định', 'https://www.facebook.com/nhatoinamdinh', '12K', '1.500.000'],
+        ['139', 'Người Hải Dương', 'https://www.facebook.com/haiduong34.fanpage', '33K', '1.500.000'],
+        ['140', 'Người Phú Thọ', 'https://www.facebook.com/phutho19.fanpage', '33K', '1.500.000'],
+        ['141', 'Quảng Trị Của Tôi', 'https://www.facebook.com/Qu%E1%BA%A3ng-Tr%E1%BB%8B-C%E1%BB%A7a-T%C3%B4i-858174401247738', '32K', '1.500.000'],
+        ['142', 'Người Thanh Hóa', 'https://www.facebook.com/T%C3%B4i-Y%C3%AAu-Thanh-H%C3%B3a-142944824579924', '31K', '1.500.000'],
+        ['143', 'Bắc Ninh Của Tôi', 'https://www.facebook.com/bnct.page?mibextid=LQQJ4d', '61K', '1.500.000'],
+        ['144', 'Lang Thang Đồng Nai', 'https://www.facebook.com/langthangdongnai60', '115K', '1.500.000'],
+        ['145', 'Beat Hà Nội', 'https://www.facebook.com/beattvv.co', '113K', '1.500.000'],
+        ['146', 'Người Ninh Thuận', 'https://www.facebook.com/ninhthuan.fanpage', '31K', '1.500.000'],
+        ['147', 'Nhà Tôi Ninh Thuận', 'https://www.facebook.com/nhatoininhthuan', '57K', '1.500.000'],
     ]
 }
 
+//booking kol
 export const serviceBooking = [
     {
         id: 1,
         name: "Emma Nhất Khánh",
         desc: "Post video tiktok và post ảnh fanpage",
         img: [
-            emma2, emma3, emma
+            emma2, emma4, emma5
         ]
     },
     {
@@ -200,7 +245,7 @@ export const serviceBooking = [
         name: "Chao (whynotchao)",
         desc: "Post video tiktok và post ảnh fanpage",
         img: [
-            chao, chao2, chao3
+            chao4, chao2, chao5
         ]
     },
     {
@@ -208,7 +253,39 @@ export const serviceBooking = [
         name: "Ruby Bảo An",
         desc: "Post video tiktok và post ảnh fanpage",
         img: [
-            ruby, ruby2, ruby3
+            ruby, ruby4, ruby5
+        ]
+    },
+    {
+        id: 4,
+        name: "Ly Biết Tuốt",
+        desc: "",
+        img: [
+            lybiettuot, lybiettuot2, lybiettuot3
+        ]
+    },
+    {
+        id: 5,
+        name: "Thảo Trần",
+        desc: "",
+        img: [
+            thaotran, thaotran2, thaotran3
+        ]
+    },
+    {
+        id: 6,
+        name: "Khác",
+        desc: "",
+        img: [
+            thanhthy, ngiu99, midha
+        ]
+    },
+    {
+        id: 7,
+        name: "Khác 2",
+        desc: "",
+        img: [
+            taconghieu, chiennguyen,
         ]
     },
 ]
@@ -216,8 +293,8 @@ export const serviceBooking = [
 export const serviceList = [
     {
         id: 1,
-        img: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/dich-vu-5.png',
-        imgHover: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/hover-dich-vu-5.png',
+        img: fanpage,
+        imgHover: fanpageHover,
         title: 'Quản trị Fanpage',
         sub: [
             'Quản lý Fanpage', 'Content', 'Facebook Ads'
@@ -282,8 +359,8 @@ export const serviceList = [
     },
     {
         id: 2,
-        img: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/dich-vu-2.png',
-        imgHover: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/hover-dich-vu-2.png',
+        img: facebook,
+        imgHover: facebookHover,
         title: 'Network Fanpage',
         sub: [
             'Booking Hot Page', 'Đăng Ảnh & Video', 'Post Bài'
@@ -291,8 +368,8 @@ export const serviceList = [
     },
     {
         id: 3,
-        img: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/dich-vu-1.png',
-        imgHover: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/hover-dich-vu-1.png',
+        img: target,
+        imgHover: targetHover,
         title: 'Booking',
         sub: [
             'Booking KOL', 'Booking KOC', 'Truyền Thông Số Tích Hợp'
@@ -330,8 +407,8 @@ export const serviceList = [
     },
     {
         id: 5,
-        img: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/dich-vu-4.png',
-        imgHover: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/hover-dich-vu-4.png',
+        img: ads,
+        imgHover: adsHover,
         title: 'Website',
         sub: [
             'Tư Vấn & Xây Dựng Website', 'SEO Website', 'Mua Tên Miền'
@@ -351,8 +428,8 @@ export const serviceList = [
     },
     {
         id: 6,
-        img: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/dich-vu-6.png',
-        imgHover: 'https://agency.mauthemewp.com/wp-content/uploads/2021/09/hover-dich-vu-6.png',
+        img: media,
+        imgHover: mediaHover,
         title: 'Thiết Kế',
         sub: [
             'Thiết Kế Logo', 'Thiết Kế Banner', 'Thiết Kế Các Ấn Phẩm In Ấn'

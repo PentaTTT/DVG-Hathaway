@@ -68,7 +68,7 @@ const ServiceDetailPage = () => {
 
                 <div className='absolute lg:top-[45%] top-[40%] lg:left-48 left-5'>
                     <h1 className='font-fontRoboto lg:text-3xl text-2xl text-yellowColor'>Dịch Vụ Network Fanpage</h1>
-                    <p className='my-3'>desc</p>
+                    <p className='my-3'></p>
                 </div>
             </div>
 
