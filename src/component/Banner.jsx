@@ -7,7 +7,7 @@ const Banner = () => {
     return (
         <section className='relative'>
             <div className=''>
-                <img loading='lazy' className='object-cover md:h-full h-[250px] w-full brightness-[60%]'
+                <img className='object-cover md:h-full h-[250px] w-full brightness-[60%]'
                     src={banner} alt="banner" />
             </div>
 
