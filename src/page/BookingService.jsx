@@ -10,6 +10,7 @@ const BookingService = () => {
     const [isOpen, setIsOpen] = useState(false)
     const [currentImg, setCurrentImg] = useState('')
     const [key, setKey] = useState(false);
+    isOpen ? document.body.style.overflow = 'hidden' : document.body.style.overflowX = 'hidden'
 
     useEffect(() => { setTimeout(() => setKey(key + 1)); }, [isOpen]);
 
@@ -40,7 +41,7 @@ const BookingService = () => {
                                         return <div key={index}
                                             onClick={() => { setIsOpen(true); setCurrentImg(item) }}
                                         >
-                                            <img src={item} className='object-cover max-h-[400px] shadow-md cursor-pointer' />
+                                            <img loading='lazy' src={item} className='object-cover max-h-[400px] shadow-md cursor-pointer' />
 
                                         </div>
                                     })}

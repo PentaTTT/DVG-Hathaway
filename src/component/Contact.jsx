@@ -55,7 +55,9 @@ const Contact = () => {
     }
     return (
 
-        <div className='lg:py-24 py-12' data-aos="fade-up" data-aos-duration='2000'>
+        <div className='lg:py-24 py-12'
+            data-aos="fade-up" data-aos-duration='2000'
+        >
             <div className='text-center '>
                 <h3 className='text-green text-2xl font-fontRoboto font-bold mb-3'>Let's Work Together</h3>
                 <p className='lg:w-1/2 w-5/6 mx-auto'>Gửi yêu cầu về mục tiêu Marketing của doanh nghiệp để được tư vấn hình thức quảng cáo phù hợp nhất một cách nhanh chóng</p>

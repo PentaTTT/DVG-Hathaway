@@ -17,7 +17,7 @@ const ContactPage = () => {
                                 <p>Email: dvghathawayinc@gmail.com</p>
                             </div>
                             <div className='w-1/3'>
-                                <img src={phoneLogo} alt='phone' />
+                                <img loading='lazy' src={phoneLogo} alt='phone' />
                             </div>
                         </div>
 
@@ -28,7 +28,7 @@ const ContactPage = () => {
                                 <p>Email: dvghathawayinc@gmail.com</p>
                             </div>
                             <div className='w-1/3'>
-                                <img src={location} alt='location' />
+                                <img loading='lazy' src={location} alt='location' />
                             </div>
                         </div>
                     </div>

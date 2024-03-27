@@ -46,7 +46,7 @@ const Partner = () => {
                 <h3 className='text-green text-2xl font-fontRoboto font-bold mb-3'>Đối tác tiêu biểu</h3>
                 <p className=''>chúng tôi được tin tưởng bởi</p>
                 <div className='mx-auto py-12 md:px-7 px-10'
-                    data-aos="zoom-in-up" data-aos-duration="2000"
+                // data-aos="zoom-in-up" data-aos-duration="2000"
                 >
                     <Slider {...settings}>
                         {listPartner && listPartner.length > 0 &&
@@ -61,7 +61,7 @@ const Partner = () => {
                                 '>
 
                                     <div className='w-full h-32 mx-auto bg-white'>
-                                        <img className='object-cover p-3 mx-auto w-auto h-full group-hover:scale-110 transition-all ease-in-out duration-[300ms]'
+                                        <img loading='lazy' className='object-cover p-3 mx-auto w-auto h-full group-hover:scale-110 transition-all ease-in-out duration-[300ms]'
                                             src={item.img} alt={item.name} />
                                     </div>
 

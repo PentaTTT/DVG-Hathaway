@@ -1,7 +1,36 @@
-import { Home, ServicePage, About, ContactPage, ProjectPage, ProjectDetailPage, ServiceDetailPage, OrtherServiceDetailPage, BookingService } from './page/index'
+import React, { lazy, Suspense } from "react"
+//import { Home, ServicePage, About, ContactPage, ProjectPage, ProjectDetailPage, ServiceDetailPage, OrtherServiceDetailPage, BookingService } from './page/index'
 import { path } from './ultils/constant'
 import { Route, Routes } from 'react-router-dom'
 import { ContactBar, Footer, Navbar } from './component'
+
+const Home = lazy(() => import('./page/index').then(module => {
+  return { default: module.Home }
+}))
+const ServicePage = lazy(() => import('./page/index').then(module => {
+  return { default: module.ServicePage }
+}))
+const About = lazy(() => import('./page/index').then(module => {
+  return { default: module.About }
+}))
+const ContactPage = lazy(() => import('./page/index').then(module => {
+  return { default: module.ContactPage }
+}))
+const ProjectPage = lazy(() => import('./page/index').then(module => {
+  return { default: module.ProjectPage }
+}))
+const ProjectDetailPage = lazy(() => import('./page/index').then(module => {
+  return { default: module.ProjectDetailPage }
+}))
+const ServiceDetailPage = lazy(() => import('./page/index').then(module => {
+  return { default: module.ServiceDetailPage }
+}))
+const OrtherServiceDetailPage = lazy(() => import('./page/index').then(module => {
+  return { default: module.OrtherServiceDetailPage }
+}))
+const BookingService = lazy(() => import('./page/index').then(module => {
+  return { default: module.BookingService }
+}))
 
 function App() {
   const serviceList = [
@@ -63,23 +92,25 @@ function App() {
 
   return (
     <>
-      <Navbar />
-      <div className='pt-24'>
-        <Routes>
-          <Route path={path.HOME} element={<Home />} />
-          <Route path={path.HOME2} element={<Home />} />
-          <Route path={path.SERVICE} element={<ServicePage />} />
-          <Route path={path.ABOUT} element={<About />} />
-          <Route path={path.CONTACT} element={<ContactPage />} />
-          <Route path={path.PROJECT} element={<ProjectPage />} />
-          <Route path={path.PROJECTDETAIL} element={<ProjectDetailPage />} />
-          <Route path={path.SERVICEDETAIL} element={<ServiceDetailPage />} />
-          <Route path={path.SERVICE2DETAIL} element={<OrtherServiceDetailPage />} />
-          <Route path={path.SERVICEBOOKING} element={<BookingService />} />
-        </Routes>
-      </div>
-      <Footer serviceList={serviceList} />
-      <ContactBar />
+      <Suspense fallback={<h1 className="font-fontRoboto text-center text-green pt-24">Loading...</h1>}>
+        <Navbar />
+        <div className='pt-24'>
+          <Routes>
+            <Route path={path.HOME} element={<Home />} />
+            <Route path={path.HOME2} element={<Home />} />
+            <Route path={path.SERVICE} element={<ServicePage />} />
+            <Route path={path.ABOUT} element={<About />} />
+            <Route path={path.CONTACT} element={<ContactPage />} />
+            <Route path={path.PROJECT} element={<ProjectPage />} />
+            <Route path={path.PROJECTDETAIL} element={<ProjectDetailPage />} />
+            <Route path={path.SERVICEDETAIL} element={<ServiceDetailPage />} />
+            <Route path={path.SERVICE2DETAIL} element={<OrtherServiceDetailPage />} />
+            <Route path={path.SERVICEBOOKING} element={<BookingService />} />
+          </Routes>
+        </div>
+        <Footer serviceList={serviceList} />
+        <ContactBar />
+      </Suspense >
     </>
   )
 }

@@ -18,7 +18,7 @@ const About = () => {
 
                     <div className='flex flex-col gap-5 mt-3'>
                         <div className='flex'>
-                            <img src={missionImg} alt="mission image" className='object-fit h-1/2 md:w-[45%] lg:w-[40%]' />
+                            <img loading='lazy' src={missionImg} alt="mission image" className='object-fit h-1/2 md:w-[45%] lg:w-[40%]' />
                             <div>
                                 <h3 className='text-lg font-bold font-fontRoboto'>SỨ MỆNH</h3>
                                 <p className='text-sm mt-2'>DVG HATHAWAY hướng đến việc trở thành doanh nghiệp mang giá trị đối với xã hội và cộng đồng.
@@ -27,7 +27,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className='flex'>
-                            <img src={visionImg} alt="vision image" className='object-fit h-1/2 md:w-[45%] lg:w-[40%]' />
+                            <img loading='lazy' src={visionImg} alt="vision image" className='object-fit h-1/2 md:w-[45%] lg:w-[40%]' />
                             <div>
                                 <h3 className='text-lg font-bold font-fontRoboto'>TẦM NHÌN</h3>
                                 <p className='text-sm mt-2'>DVG HATHAWAY mong muốn Tạo dựng thương hiệu và sức ảnh hưởng để làm
@@ -43,7 +43,7 @@ const About = () => {
                         className='bg-green px-3 py-2 rounded-md text-yellow-400 mt-5 btnEffect hover:text-yellow-400'>DỊCH VỤ</button>
                 </div>
                 <div className='w-full px-3 lg:px-0 lg:w-1/2'>
-                    <img src={aboutImg} alt="about image"
+                    <img loading='lazy' src={aboutImg} alt="about image"
                         className='object-fit'
                     />
                 </div>

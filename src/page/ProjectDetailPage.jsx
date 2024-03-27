@@ -37,7 +37,7 @@ const ProjectDetailPage = () => {
                             <div className='shadow-md lg:max-h-36 max-h-[140px] overflow-hidden cursor-pointer'
                                 onClick={() => { setIsOpen(true); setCurrentImg(item) }}
                             >
-                                <img className='' src={item} alt={index} />
+                                <img loading='lazy' className='' src={item} alt={index} />
                             </div>
 
                             {isOpen && (

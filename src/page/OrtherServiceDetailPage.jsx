@@ -36,7 +36,7 @@ const OrtherServiceDetailPage = () => {
     //style table
     const theme = createTheme({
         typography: {
-            fontFamily: "Roboto Slab",
+            fontFamily: "Open Sans",
         },
         palette: {
             background: {

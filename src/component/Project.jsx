@@ -56,7 +56,7 @@ const Project = () => {
                                 className='flex bg-white h-fit rounded-xl shadow-r-md cursor-pointer group'
                             >
                                 <div className='flex justify-center items-center overflow-hidden'>
-                                    <img src={item.img} alt={item.title}
+                                    <img loading='lazy' src={item.img} alt={item.title}
                                         className='object-cover rounded-t-xl group-hover:scale-110 transition-all ease-in-out duration-[300ms]'
                                     />
                                 </div>

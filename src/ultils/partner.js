@@ -10,15 +10,6 @@ import baeminImg from '../assets/partner/baemin.png'
 import medlatecImg from '../assets/partner/medlatec.webp'
 import ecoparkImg from '../assets/partner/ecopark.png'
 import facebookImg from '../assets/partner/facebook.png'
-// import doubleuImg from '../assets/partner/doubleu.jpg'
-// import metubImg from '../assets/partner/metub.png'
-// import gemImg from '../assets/partner/gem.png'
-// import hiipImg from '../assets/partner/hiip.png'
-// import chinImg from '../assets/partner/chinmedia.png'
-// import comesImg from '../assets/partner/comesmedia.png'
-// import theanh28Img from '../assets/partner/theanh28.jpg'
-// import umediaImg from '../assets/partner/umedia.png'
-// import sefaImg from '../assets/partner/sefamedia.png'
 
 
 export const listPartner = [
@@ -70,41 +61,5 @@ export const listPartner = [
         name: 'Facebook',
         img: facebookImg
     },
-    // {
-    //     name: 'Double U',
-    //     img: doubleuImg
-    // },
-    // {
-    //     name: 'Metub',
-    //     img: metubImg
-    // },
-    // {
-    //     name: 'Gem Digital',
-    //     img: gemImg
-    // },
-    // {
-    //     name: 'Hiip',
-    //     img: hiipImg
-    // },
-    // {
-    //     name: 'Chin Media',
-    //     img: chinImg
-    // },
-    // {
-    //     name: 'Comes Media',
-    //     img: comesImg
-    // },
-    // {
-    //     name: 'Theanh 28',
-    //     img: theanh28Img
-    // },
-    // {
-    //     name: 'Umedia',
-    //     img: umediaImg
-    // },
-    // {
-    //     name: 'SEFA Media',
-    //     img: sefaImg
-    // },
 
 ] 

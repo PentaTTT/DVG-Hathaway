@@ -33,11 +33,11 @@ const Service = ({ haveTitle }) => {
                             data-aos="flip-left" data-aos-duration='2000'
                         >
                             {isHover.status === true && isHover.id === item.id ?
-                                <img src={item.imgHover} alt="img service"
+                                <img loading='lazy' src={item.imgHover} alt="img service"
                                     className='object-fit mx-auto mt-5'
                                 />
                                 :
-                                <img src={item.img} alt="img service"
+                                <img loading='lazy' src={item.img} alt="img service"
                                     className='object-fit mx-auto mt-5'
                                 />
                             }

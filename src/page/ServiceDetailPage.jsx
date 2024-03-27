@@ -13,11 +13,14 @@ const ServiceDetailPage = () => {
         ['name']: item, ['options']:
         {
             customBodyRender: (value) => (
-                <a
-                    href={value}
-                    target='_blank'
-                    className={!value?.indexOf('https://') && 'px-3 py-2 text-white bg-cyan-700 rounded-md btnEffect'}
-                >{!value?.indexOf('https://') ? 'Xem Fanpage' : value}</a>
+                !value?.indexOf("https://") ?
+                    <a
+                        href={value}
+                        target='_blank'
+                        className={!value?.indexOf('https://') && 'px-3 py-2 text-white bg-green rounded-md'}
+                    > {!value?.indexOf('https://') ? 'Xem Fanpage' : value}</a>
+                    :
+                    <p>{value}</p>
             )
         }
     }))
@@ -36,7 +39,7 @@ const ServiceDetailPage = () => {
     //style table
     const theme = createTheme({
         typography: {
-            fontFamily: "Roboto Slab",
+            fontFamily: "Open Sans",
         },
         palette: {
             background: {
@@ -83,7 +86,7 @@ const ServiceDetailPage = () => {
                                 >
                                     <a href={item.link} target='_blank'>
                                         <div>
-                                            <img src={item.img} alt={item.name}
+                                            <img loading='lazy' src={item.img} alt={item.name}
                                                 className='rounded-full h-[250px] w-[250px] flex justify-center'
                                             />
                                         </div>
