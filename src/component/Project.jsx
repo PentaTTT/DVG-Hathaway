@@ -13,7 +13,7 @@ const Project = () => {
         dots: true,
         infinite: true,
         speed: 400,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 2000,
         slidesToShow: 4,
         slidesToScroll: 1,

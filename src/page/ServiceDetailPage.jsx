@@ -7,7 +7,7 @@ import { createTheme, ThemeProvider } from "@mui/material/styles"
 
 const ServiceDetailPage = () => {
 
-    const title = 'Báo Giá Tổng Hợp Fanpage Local'
+    const title = 'BÁO GiÁ TỔNG HỢP FANPAGE LOCAL'
 
     const columnsCustome = serviceNetFanPageExtra?.columns?.map(item => ({
         ['name']: item, ['options']:

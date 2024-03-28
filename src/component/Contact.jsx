@@ -70,30 +70,30 @@ const Contact = () => {
 
                 >
                     <div>
-                        <label htmlFor=""></label>
-                        <input className={inputCss} name='Họ tên' type="text" placeholder='Họ và tên (*)'
+                        <label htmlFor="name"></label>
+                        <input className={inputCss} id='name' name='Họ tên' type="text" placeholder='Họ và tên (*)'
                             value={formData['Họ tên']}
                             onChange={handleChange}
                         />
                         {error['Họ tên'] && <div className='text-red-600'>{error['Họ tên']}</div>}
                     </div>
                     <div>
-                        <label htmlFor=""></label>
-                        <input className={inputCss} name='SĐT' type="text" placeholder='Số điện thoại (*)'
+                        <label htmlFor="phone"></label>
+                        <input className={inputCss} id='phone' name='SĐT' type="text" placeholder='Số điện thoại (*)'
                             value={formData['SĐT']}
                             onChange={handleChange} />
                         {error['SĐT'] && <div className='text-red-600'>{error['SĐT']}</div>}
                     </div>
                     <div>
-                        <label htmlFor=""></label>
-                        <input className={inputCss} name='Email' type="text" placeholder='Email của bạn (*)'
+                        <label htmlFor="email"></label>
+                        <input className={inputCss} id='email' name='Email' type="text" placeholder='Email của bạn (*)'
                             value={formData['Email']}
                             onChange={handleChange} />
                         {error['Email'] && <div className='text-red-600'>{error['Email']}</div>}
                     </div>
                     <div>
                         <textarea className={inputCss}
-                            name="Lời nhắn" id='' cols="30" rows="7" placeholder='Lời nhắn'
+                            name="Lời nhắn" id='message' cols="30" rows="7" placeholder='Lời nhắn'
                             value={formData['Lời nhắn']}
                             onChange={handleChange}>
                         </textarea>

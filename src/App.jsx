@@ -92,8 +92,8 @@ function App() {
 
   return (
     <>
+      <Navbar />
       <Suspense fallback={<h1 className="font-fontRoboto text-center text-green pt-24">Loading...</h1>}>
-        <Navbar />
         <div className='pt-24'>
           <Routes>
             <Route path={path.HOME} element={<Home />} />
@@ -109,8 +109,8 @@ function App() {
           </Routes>
         </div>
         <Footer serviceList={serviceList} />
-        <ContactBar />
       </Suspense >
+      <ContactBar />
     </>
   )
 }

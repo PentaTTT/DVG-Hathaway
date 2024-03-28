@@ -28,7 +28,7 @@ const Navbar = () => {
             <div className='wrapper flex items-center justify-between'>
                 <div className="">
                     <img src={logoDVG} alt="logo" className='lg:w-24 lg:h-24 w-20 cursor-pointer'
-                        onClick={() => nav(path.HOME2)}
+                        onClick={() => nav(path.HOME)}
                     />
                 </div>
 
